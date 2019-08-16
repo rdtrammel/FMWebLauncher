@@ -2,13 +2,37 @@ let main = document.querySelector("main");
 let apps = [
     {
         "name" : "Launcher",
-        "url" : "fmp://fms14.dl.scbt.com/FMCruzer"
+        "url" : "fmp://fms14.dl.scbt.com/FMCruzControl"
     },{
         "name" : "Technology Service Tickets",
         "url" : "fmp://fms14.dl.scbt.com/TechnologyServiceTickets"
     },{
         "name" : "Livestock",
         "url" : "fmp://fms7.dl.scbt.com/Livestock"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
+    },{
+        "name" : "Some other app",
+        "url" : "fmp://fms14.dl.scbt.com/CoreDataWorker"
     }
 ];
 

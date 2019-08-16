@@ -1,6 +1,18 @@
-body,a,div,main{
+@media screen{
+    @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 200;
+        src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gTD_vx3rCubqg.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+}
+
+body,a,div,main,ul{
     margin:0;
     padding:0;
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    vertical-align: center;
 }
 
 body{
@@ -8,20 +20,28 @@ body{
 }
 
 main{
-    padding:2em;
+    margin:auto;
+    max-width:1900px;
+}
+
+main h4{
+    margin-left:2em;
 }
 
 #appList{
     display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
     list-style-type: none;
 }
 
 #appList li{
+    flex:1;
     margin:.5em;
-    background-color:#FFF;
-    border-radius:.5em;
-    width:200px;
     padding:2em;
+    background-color:#FFF;
+    min-width:200px;
+    font-size: 12pt;
     display:inline-block;
     text-align:center;
 }
@@ -32,5 +52,7 @@ main{
 }
 
 a {
+    padding:2em 0;
     text-decoration: none;
+    color:black;
 }
